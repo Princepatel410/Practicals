@@ -1,5 +1,3 @@
-//implement an async iterator function that yield a value every second
-
 async function* asyncCounter() {
     let count = 0;
     while (true) {
