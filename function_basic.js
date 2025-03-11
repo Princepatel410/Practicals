@@ -10,13 +10,14 @@ area();
 //higher order function
 
 //imumutability
-// const numbers = [1, 2, 3, 4, 5];
-function addElementToArray(originalArray, newElement) {
-    return [...originalArray, newElement];
+
+
+function addarray(originalarray, ...newelement) {
+    return [...originalarray,...newelement];
 }
 
 const numbers = [1, 2, 3,4,5];
-const newNumbers = addElementToArray(numbers, 4);
+const newnumber = addarray(numbers,6,7,8,9,10);``
 
 console.log(numbers);      
-console.log(newNumbers);   
+console.log(newnumber);   
